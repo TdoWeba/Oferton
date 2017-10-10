@@ -1,0 +1,508 @@
+*{
+	margin:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(110,164,226);	
+}
+.head{
+	background-color: #0680F0; 
+	overflow: hidden; 
+	height: 150px;
+	width: 100%;
+}
+#logo{
+	position: absolute;
+	float: left;
+	left: 5%;
+	top:10px;
+	width: 120px; 
+	height: 55px;
+}
+.menu{
+	height: 50%;
+	margin-right: 30%;
+	width:100%;
+	margin: auto;
+	border-bottom: 2px solid black;
+	z-index: 2;
+}
+#search{
+	position: absolute;
+	float: right;
+	right: 36%;
+	top: 4.5%;
+	appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    height: 30px;
+    width: 400px;
+    background: #FFF;
+    color: #828291;
+    border-radius: 22px 0 0 22px;
+    border:10px;
+    border-color: black;
+}
+.lupa{
+	background-color: #DEFF00;
+	position: absolute;
+	border:10px;
+    border-radius: 0 22px 22px 0;
+    border:10px;
+    border-color: black;
+	float: right;
+	left:63.7%;
+	top: 4.5%;
+	width: 40px;
+	height: 30px;
+}
+.carrito{
+	background-color: #DEFF00;
+	position: absolute;
+	border:10px;
+    border-radius:  22px 22px 22px 22px ;
+    border:10px;
+    border-color: black;
+	float: right;
+	right: 20%;
+	top: 4.5%;
+	width: 40px;
+	height: 30px;
+}
+.log{
+	background-color: #DEFF00;
+	position: absolute;
+	border:10px;
+    border-radius:  22px 22px 22px 22px ;
+    border:10px;
+    border-color: black;
+	float: right;
+	right: 13%;
+	top: 4.5%;
+	width: 70px;
+	height: 30px;
+}
+.menu2{
+	background-color: rgb(110,164,226);
+	
+	width:100%;
+	height: 50%;
+}
+.menu2 nav{
+	position: absolute;
+	float: right;
+	top: 11.7%;
+	right: 33%;
+}
+.izq{
+	border-left: 2px solid black;
+}
+.der{
+	border-right: 2px solid black;
+}
+#bajo{
+	border-bottom: 2px solid black;
+}
+.menu2 nav li{
+	list-style-type: none;
+	display: inline-block;
+	top: 19.5%;
+	right: 28%; 
+}
+.anida >li{
+	float: left;
+
+}
+.anida li a{
+	background-color: #0680F0;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 25px;
+	display: block;
+	min-width: 100px;
+}
+.anida li ul{
+	display: none;
+	position: absolute;
+	width: 100px;
+}
+.anida li:hover >ul{
+	display: block;
+	position: absolute;
+	z-index: 3;
+	margin-left: -41px;
+	min-width: 150px;
+	width: 15%;
+}
+.anida li a:hover{
+	background-color: red;
+}
+.banner{
+	background-color: black;
+	width: 100%;
+	height:400px;
+	
+}
+.bannerDS{
+	background-color: black;
+	width: 100%;
+	height:400px;
+}
+.bannerPSP{
+	background-color: black;
+	width: 100%;
+	height:390px;
+}
+.bannerN{
+	background-color: black;
+	width: 100%;
+	height:390px;
+}
+.banner h1{
+	position: absolute;
+	left: 37%;
+	color: #DEFF00; 
+	text-shadow: 2px 2px #E31D2A, 2px 2px #E31D2A;
+}
+#img{
+	top:30%;
+	left: 10%;
+	position: absolute;
+
+}
+#img1{
+	top:40%;
+	left:37%;
+	position: absolute;
+	right: 0;
+}
+#img2{
+	top:40%;
+	left:70%;
+	position: absolute;
+	right: 0;
+}
+.banner:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height:400px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0.8;
+	background-image: url(../img/banner.png);
+
+}
+.bannerDS:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height:400px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0.8;
+	background-image: url(../img/baner2.png);
+}
+.bannerPSP:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height:450px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0.8;
+	background-image: url(../img/banner3.png);
+}
+.bannerN:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height:390px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0.8;
+	background-image: url(../img/banner1.png);
+}
+#log{
+	font-family: Segoe UI ;
+	margin-top: 0px;
+	text-align: center;
+	color: #2bad24;
+	text-shadow: 3px 3px black, 0 0 5px black;
+	opacity: none;
+	padding-bottom: 90px;
+}
+.bot{
+	text-align: center;
+	font-family: Segoe UI ;
+}
+.seccion{
+	width: 800px; 
+	margin:auto; 
+	background-color: #0680F0;
+
+}
+.seccion article{
+	padding-bottom: 5%;
+	border: 1px solid black;
+	margin-top: 10px;
+}
+#carro p{
+	margin-top: 0;
+	margin-left:5%;
+	margin-right: 5%;
+	text-align: justify;
+	color: #fff;
+	font-family: Segoe UI ;
+	padding-bottom: 5px;
+}
+.seccion h1{
+	margin-left: 5%;
+	color: #DEFF00;
+	font-family: Segoe UI ;
+	text-align: center;
+	padding-bottom: 3%;
+}
+.seccion h2{
+	margin-left: 5%;
+	color: #DEFF00;
+	font-family: Segoe UI ;
+	padding-bottom: 5px;
+}
+.seccion h3{
+	margin-left: 80%;
+	color: #DEFF00;
+	font-family: Segoe UI ;
+	padding-bottom: 5px;
+}
+
+.seccion article p{
+	margin-top: 0;
+	margin-left:5%;
+	margin-right: 5%;
+	text-align: justify;
+	color: #fff;
+	font-family: Segoe UI ;
+	padding-bottom: 5px;
+}
+.seccion article a{
+	margin-left: 5%;
+	color: #DEFF00;
+	font-family: Segoe UI ;
+
+}
+.seccion article img{
+	margin-left: 5%;
+	width: 100px;
+	height: 90px;
+
+}
+#w{
+	margin-left: 5%;
+	width: 100px;
+	height: 140px;
+
+}
+.seccion article img:hover,.seccion h2:hover,.seccion article a:hover{
+	opacity: 0.8;
+}
+.secregis{
+	padding-top: 10px; 
+	width: 800px; 
+	margin: auto;
+}
+.secregis h1{
+	position: absolute;
+	left: 45%;
+	color: #DEFF00;
+	top: 20%;
+	font-family: Segoe UI ;
+}
+.secCarro{
+	width: 800px; 
+	margin: auto;
+	background-color:#0680F0; 
+}
+.secCarro h2{
+	padding-bottom: 5px;
+	color: #DEFF00;
+	font-family: Segoe UI ;
+}
+.secCarro article img{
+	margin-left: 5%;
+	width: 100px;
+	height: 90px;
+
+}
+.secCarro article button{
+	margin-left: 60%;
+	color: black;
+	background-color: #DEFF00;
+	border-radius:  22px 22px 22px 22px ;
+	font-family: Segoe UI ;
+
+}
+.secCarro h4{
+	position: absolute;
+	top: 32%;
+	left: 32%;
+	color: #DEFF00;
+}
+.secCarro h1{
+	position: absolute;
+	padding: 5px;
+	border-radius: 100%;
+	top: 32%;
+	left: 22%;
+	background-color: #DEFF00;
+}
+
+.puesto{
+	margin-top:10px
+}
+.puesto button{
+	background-color: #DEFF00;
+	border:10px;
+    border-radius:  22px 22px 22px 22px ;
+    border:10px;
+    border-color: black;
+    margin-left: 90%; 
+	width: 80px;
+	font-family: Segoe UI ;
+	height: 30px;
+}
+.seclog{
+	padding-top: 10px;
+	width: 800px;
+	margin: auto;
+}
+.seclog fieldset{
+	width: 300px;
+	margin: auto;
+	background-color:#0680F0;
+}
+.seclog fieldset legend{
+	position: absolute;
+	top: 20%;
+	left:46%;
+	font-family: Segoe UI ;
+	color: #DEFF00;
+}
+.logDiv1{
+	text-align: center;
+}
+.divCorreo{
+	margin-bottom: 10px
+}
+.divCorreo label{
+	font-family: Segoe UI ;
+	color: #DEFF00;
+	 display:block; 
+	 margin-bottom: 10px;
+}
+.divCorreo a{
+	font-family: Segoe UI ;
+	color: #DEFF00;
+	 display:block; 
+	 margin-top: 5px;
+}
+.divCorreo input{
+	  width: 100%;
+	  border-radius: 22px;
+}
+#sing{
+	width: 50%;
+	color: black;
+	border-radius: 22px;
+	background-color: #DEFF00;
+}
+.footer{
+	background-color: #0680F0; 
+	overflow: hidden; 
+	clear: both;
+}
+.lo{
+	overflow: hidden; 
+	clear: both; 
+	position:fixed; 
+	bottom: 0; 
+	left: 0;
+	right: 0;
+}
+.conte{
+	width: 800px; 
+	margin: auto;
+	padding-top: 60px;
+}
+.conte h3{
+	color: #DEFF00;
+	display: inline-block; 
+}
+#s{
+	float: left;
+	margin-top: 0px;
+}
+#r{
+	float: center;
+}
+.conte2{
+	float: left;
+	padding-bottom: 50px;
+
+}
+.conte2 img{
+	color: #DEFF00;
+}
+.conte2 ul{
+	list-style-type: none;
+
+}
+.conte2 ul a{
+	text-decoration: none;
+	color: #DEFF00; 
+	transition: .2s;
+	padding-right: 50px;
+}
+.conte2 ul a:hover{
+	transition: .2s;
+	color: black;
+}
+.conte2 img{
+	height: 25px;
+	width: 25px;
+
+}
+#b:hover{
+	opacity: 0.8;
+}
+#sing:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
